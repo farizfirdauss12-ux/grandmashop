@@ -159,7 +159,7 @@ body {
             rgba(0, 0, 0, 0.55),
             rgba(0, 0, 0, 0.55)
         ),
-        url(bg-hero1.png") center / cover no-repeat;
+        url("bg-hero1.png") center / cover no-repeat;
 
     display: flex;
     align-items: center;
@@ -314,3 +314,4 @@ section {
         margin: 15px 0;
     }
 }
+
