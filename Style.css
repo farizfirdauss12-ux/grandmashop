@@ -115,6 +115,45 @@ body {
 .menu-card:hover img {
     transform: scale(1.05);
 }
+.menu-form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.menu-form input,
+.menu-form button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+.menu-form button {
+  background: #5b2525;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-card button {
+  margin: 5px;
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background: #f0ad4e;
+  color: #fff;
+}
+
+.btn-delete {
+  background: #d9534f;
+  color: #fff;
+}
 
 /* HOME */
 .home {
@@ -314,4 +353,5 @@ section {
         margin: 15px 0;
     }
 }
+
 
